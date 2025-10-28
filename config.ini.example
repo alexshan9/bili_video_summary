@@ -1,0 +1,13 @@
+[whisper]
+base_url = http://10.18.188.89:9000
+timeout = 6000
+
+[litellm]
+base_url = http://10.18.188.89:4000
+api_key = sk-MJyi9Ftzp7azOj9gJoMKuw
+model = deepseek-ai/DeepSeek-V3.1
+timeout = 600
+
+[summary]
+default_prompt = 你是一个专业的视频内容总结助手。请仔细阅读以下视频字幕内容，提取关键信息，生成一份结构化的总结，包括：1. 核心主题 2. 主要观点（3-5点）3. 关键结论。请使用简洁清晰的中文。
+
