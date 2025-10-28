@@ -1,0 +1,25 @@
+# B站视频总结工具依赖包
+
+# B站视频下载
+bilix>=0.18.0
+
+# HTTP请求库
+requests>=2.31.0
+
+# Flask Web框架
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ASGI服务器
+uvicorn>=0.25.0
+asgiref>=3.7.2
+
+# 配置文件解析（Python标准库，无需安装）
+# configparser
+
+# 异步支持（Python 3.7+标准库，无需安装）
+# asyncio
+
+# 日志（Python标准库，无需安装）
+# logging
+

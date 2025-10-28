@@ -1,0 +1,6 @@
+docs
+config.ini
+.vscode
+.vitest
+.github
+dist
